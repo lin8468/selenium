@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52887" started-at="2017-02-20T14:25:48Z" finished-at="2017-02-20T14:26:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52887" started-at="2017-02-20T14:25:48Z" finished-at="2017-02-20T14:26:41Z">
+      <class name="com.example.cases.Index">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.example.cases.Index@233c0b17]" name="beforeSuite" is-config="true" duration-ms="84286" started-at="2017-02-20T22:24:24Z" finished-at="2017-02-20T22:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.example.cases.Index@233c0b17]" name="initDriver" is-config="true" duration-ms="77" started-at="2017-02-20T22:25:48Z" finished-at="2017-02-20T22:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.example.cases.Index@233c0b17]" name="Login" duration-ms="12314" started-at="2017-02-20T22:25:48Z" finished-at="2017-02-20T22:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="testPersonCenter()[pri:1, instance:com.example.cases.Index@233c0b17]" name="testPersonCenter" duration-ms="1764" started-at="2017-02-20T22:26:01Z" finished-at="2017-02-20T22:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonCenter -->
+        <test-method status="PASS" signature="testMain()[pri:2, instance:com.example.cases.Index@233c0b17]" name="testMain" duration-ms="7082" started-at="2017-02-20T22:26:03Z" finished-at="2017-02-20T22:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method status="PASS" signature="testExpertSearch()[pri:3, instance:com.example.cases.Index@233c0b17]" name="testExpertSearch" duration-ms="1565" started-at="2017-02-20T22:26:10Z" finished-at="2017-02-20T22:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpertSearch -->
+        <test-method status="PASS" signature="testSchool()[pri:4, instance:com.example.cases.Index@233c0b17]" name="testSchool" duration-ms="2806" started-at="2017-02-20T22:26:11Z" finished-at="2017-02-20T22:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSchool -->
+        <test-method status="PASS" signature="testSchoolTab()[pri:5, instance:com.example.cases.Index@233c0b17]" name="testSchoolTab" duration-ms="8648" started-at="2017-02-20T22:26:14Z" finished-at="2017-02-20T22:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSchoolTab -->
+        <test-method status="FAIL" signature="testInspection()[pri:6, instance:com.example.cases.Index@233c0b17]" name="testInspection" duration-ms="6839" started-at="2017-02-20T22:26:23Z" finished-at="2017-02-20T22:26:29Z">
+          <exception class="java.lang.Throwable">
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable
+	at 
+报错信息: 自查是否正常显示 expected [true] but found [false].
+报错方法名:testInspection(
+报错类:Index
+报错行号:95)
+	at com.example.cases.Index.testInspection(Index.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInspection -->
+        <test-method status="PASS" signature="testIntentcare()[pri:7, instance:com.example.cases.Index@233c0b17]" name="testIntentcare" duration-ms="450" started-at="2017-02-20T22:26:29Z" finished-at="2017-02-20T22:26:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIntentcare -->
+        <test-method status="PASS" signature="testNoticeCenter()[pri:8, instance:com.example.cases.Index@233c0b17]" name="testNoticeCenter" duration-ms="1627" started-at="2017-02-20T22:26:30Z" finished-at="2017-02-20T22:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNoticeCenter -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.example.cases.Index@233c0b17]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-02-20T22:26:32Z" finished-at="2017-02-20T22:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.example.cases.Index@233c0b17]" name="afterTest" is-config="true" duration-ms="9647" started-at="2017-02-20T22:26:32Z" finished-at="2017-02-20T22:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.example.cases.Index -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
